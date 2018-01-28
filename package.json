@@ -1,0 +1,19 @@
+{
+  "name": "Distance_API",
+  "version": "1.0.0",
+  "description": "Nearest Distance from given location",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "tatenda Bako",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mapquest": "^0.2.0",
+    "mongoose": "^5.10.13",
+    "node-geocoder": "^3.27.0"
+  }
+}
