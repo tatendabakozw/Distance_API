@@ -1,6 +1,7 @@
 Project calculates the nearest distance between two different points
 
 It incooperates a geocoder that pulls longitude and latitude from a given address
+Font end is a simple react app
 
 ALGORITHM USED  
 -- to calculate the nearest distance is used the harvesines formula
