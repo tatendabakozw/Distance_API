@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Shoertest Distance</title>
+</head>
+
+<body>
+    <div class="container mt-16 flex items-center flex-col">
+        <form class="shadow w-5/6 p-4 bg-gray-800 text-gray-200" action="/" method="POST">
+            <div class="flex flex-col w-full mb-3">
+                <label for="address">Address 1</label>
+                <input 
+                    type="text" 
+                    class="border w-full bg-gray-700 border-gray-700 rounded outline-none p-2 w-5/6" 
+                    id="address"
+                    name="address" 
+                    placeholder="First Address" 
+                    required
+                >
+                <small id="address" class="text-gray-400">Will Calculate the distance between this address and
+                    the one below</small>
+            </div>
+            <div class="form-group">
+                <label for="address2">Address 2</label>
+                <input 
+                    type="text" 
+                    class="border w-full border-gray-700 bg-gray-700 rounded outline-none p-2 mb-3 w-5/6" 
+                    id="address2"
+                    name="address2" 
+                    placeholder="Password" 
+                    required
+                >
+            </div>
+            <button type="submit" class="p-2 bg-blue-700 outline-none  hover:bg-blue-800 rounded">Calculate</button>
+        </form>
+        <div class="bg-gray-800 mt-16 rounded w-5/6 p-4 flex flex-col items-center">
+            <p class="text-gray-200 text-xl text-center">this is the output</p>
+        </div>
+    </div>
+    
+</body>
+
+</html>

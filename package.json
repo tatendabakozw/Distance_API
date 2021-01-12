@@ -11,9 +11,11 @@
   "author": "tatenda Bako",
   "license": "MIT",
   "dependencies": {
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "mapquest": "^0.2.0",
     "mongoose": "^5.10.13",
-    "node-geocoder": "^3.27.0"
+    "node-geocoder": "^3.27.0",
+    "path": "^0.12.7"
   }
 }
